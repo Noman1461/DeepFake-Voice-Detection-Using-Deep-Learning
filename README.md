@@ -99,12 +99,19 @@ Response example:
 ---
 
 ## Project Structure
+
 ├── api.py # FastAPI server with model loading and endpoints
+
 ├── train.py # Script for training the model
+
 ├── feature_extractor.py # Custom audio feature extraction class (Whisper mel spectrogram)
+
 ├── detector.pth # Saved PyTorch model weights
+
 ├── Dockerfile # Docker configuration (if applicable)
+
 ├── requirements.txt # Python dependencies (optional)
+
 └── README.md # This documentation file
 
 
